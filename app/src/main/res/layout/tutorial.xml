@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true"
+    tools:background="#000000"
+    >
+    <TextView
+        android:id="@+id/first_elemento"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"/>
+    <View android:id="@+id/fakeView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_below="@id/first_elemento"
+        android:id="@+id/tutorial_down_hand_left"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:text="-/+"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:drawableTop="@drawable/ic_settings_brightness_black_24dp"
+        android:textColor="@android:color/white"
+        android:layout_toLeftOf="@id/fakeView"
+        />
+    <TextView
+        android:layout_below="@id/first_elemento"
+        android:id="@+id/tutorial_down_hand_right"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/fakeView"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/white"
+        android:drawableTop="@drawable/ic_volume_up_black_24dp"
+        android:paddingTop="30dp"
+        android:gravity="center"
+        android:text="-/+"
+        android:textSize="18sp"
+        android:textStyle="bold"
+       />
+    <TextView
+        android:layout_below="@id/tutorial_down_hand_left"
+        android:id="@+id/tutorial_horizontal_hand_left"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@id/fakeView"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:paddingStart="35dp"
+        android:drawableStart="@drawable/ic_skip_previous_black_24dp"
+        />
+    <TextView
+        android:layout_below="@id/tutorial_down_hand_left"
+        android:id="@+id/tutorial_horizontal_hand_right"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_toRightOf="@id/fakeView"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:paddingEnd="35dp"
+        android:drawableEnd="@drawable/ic_skip_next_black_24dp"
+        />
+    <LinearLayout
+        android:id="@+id/text_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tutorial_horizontal_hand_right"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="15dp"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                app:srcCompat="@drawable/ic_info_black_24dp"/>
+
+            <TextView
+                android:id="@+id/indications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Indicaciones de uso"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textAllCaps="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/chan_change_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="desliza hacia la izquierda en el área del reproductor para ir al canal anterior"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:visibility="gone"
+                />
+            <TextView
+                android:id="@+id/chan_change_forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="desliza hacia la derecha en el área del reproductor para ir al canal siguiente"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:visibility="gone"
+                />
+            <TextView
+                android:id="@+id/brillo_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="desliza hacia arriba/abajo la parte izquierda de reproductor para ajustar el brillo"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:visibility="gone"
+                />
+            <TextView
+            android:id="@+id/volumne_ctrl_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="desliza hacia arriba/abajo la parte derecha de reproductor para ajustar el volumen"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:visibility="gone"
+            />
+
+            <TextView
+                android:id="@+id/last_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="Listo, presiona aceptar para salir del tutorial"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:visibility="gone"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/repeat_tutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/leave_toturial"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/transparent"
+        android:visibility="gone"
+        android:text="Volver a Mostrar"
+        android:textColor="#2196F3" />
+    <Switch
+        android:id="@+id/notagain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:checked="false"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:text=" No volver a mostrar   "
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.Medium.Bold"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/leave_toturial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="#2196F3"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="Aceptar"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

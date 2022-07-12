@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: de.mrmaffen:vlc-android-sdk:1.9.8@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ccb1615552fdf865a760107123d359d1/jetified-vlc-android-sdk-1.9.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2a542d7974b8be450a25560a5b99d405/jetified-vlc-android-sdk-1.9.8/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2a542d7974b8be450a25560a5b99d405/jetified-vlc-android-sdk-1.9.8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2a542d7974b8be450a25560a5b99d405/jetified-vlc-android-sdk-1.9.8/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.mrmaffen/vlc-android-sdk/1.9.8/ffa7d8910276cc0e501ae640b13f5a3bd0c53576/vlc-android-sdk-1.9.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.mrmaffen/vlc-android-sdk/1.9.8/30762dd931a5fe20ffe2edb85a2808404413af07/vlc-android-sdk-1.9.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

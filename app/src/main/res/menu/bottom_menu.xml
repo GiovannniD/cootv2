@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/outline_home_24"
+        android:title="Inicio"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_chanels"
+        android:enabled="true"
+        android:icon="@drawable/outline_live_tv_24"
+        android:title="Canales"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_radios"
+        android:enabled="true"
+        android:icon="@drawable/ic_radio_icon"
+        android:title="Radios"
+        app:showAsAction="ifRoom" />
+</menu>

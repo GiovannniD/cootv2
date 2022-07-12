@@ -1,0 +1,105 @@
+<resources>
+
+    <string name="app_name">CooTV</string>
+    <!--app_title for main navigation & home title-->
+    <string name="app_title">CooTV - Televisión En Vivo</string>
+    <string name="app_version">1.0.0</string>
+    <string name="contact_email">desarrollo@cootel.com.ni</string>
+    <string name="copyright_text">Copyright @ CooTel \nAll right reserved</string>
+
+    <!--API -->
+    <!-- copy your api url from php admin dashboard & paste bellow string tag -->
+   <string name="api_url">https://www.cootel.com.ni:8443/cootv_api/api/</string>
+    <!--<string name="api_url">http://192.168.128.62/cootv_api/api/</string>-->
+
+   <!-- <string name="img_url">https://www.cootel.com.ni:8443/cootv_api/uploads/</string> -->
+    <!-- copy your api key from php admin dashboard & paste bellow string tag -->
+    <string name="api_key">iv804dikms1wk0bzrhicy808</string>
+    <string name="terms_url">https://www.cootel.com.ni:8443/cootv_api/uploads/politicas_cootv.html</string>
+
+    <!-- App -->
+    <string name="featured_tv_channels">Canales</string>
+    <string name="featured_tv_channels_ext">Estaciones de Radio</string>
+
+    <string name="more">Más</string>
+
+    <string name="live_tv">TV en Vivo</string>
+    <string name="live_radios">Radios en Vivo</string>
+    <string name="tv_series">Series</string>
+
+    <string name="fav">Favoritos</string>
+    <string name="search">Buscar</string>
+    <string name="no_item_found">No encontramos resultados :( </string>
+
+    <string name="related_tv">TV Relacionada</string>
+    <string name="signin">Iniciar Sesión</string>
+    <string name="reset">Reiniciar contraseña</string>
+    <string name="register">Registrarse</string>
+    <string name="full_name">Nombre Completo</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="save">Guardar</string>
+
+    <string name="description">Descripción</string>
+    <string name="comments">Comentarios</string>
+    <string name="your_comments">Tus comentarios</string>
+    <string name="add_comments">Agregar Comentario</string>
+    <string name="no_internet">No hay conexión a internet !</string>
+    <string name="copyright">Derechos Reservados</string>
+    <string name="contact_us">Contactános</string>
+    <string name="fetch_error">No se han podido obtener los datos</string>
+    <string name="login_first">Necesitas iniciar sesión</string>
+    <string name="comment_empty">Comentario no puede estar vacío</string>
+    <string name="error_toast">Algo salió mal :( intentalo mas tarde</string>
+    <string name="newuser">Eres nuevo? </string>
+    <string name="signup">Regístrate</string>
+    <string name="passforget">Contraseña olvidada</string>
+
+    <string name="titulo_comentario">Comentarios</string>
+    <string name="comentario_hint">Escriba aqui su comentario</string>
+    <string name="btn_comentario">Enviar Comentario</string>
+
+    <string-array name="nav_item_name">
+        <item>Inicio</item>
+        <item>TV en Vivo</item>
+          <item>Mi Perfil</item>
+         <item>Favoritos</item>
+         <item>Cerrar Sesión</item>
+         <item>Ajustes</item>
+     </string-array>
+
+     <string-array name="nav_item_image">
+         <item>outline_home_24</item>
+         <item>outline_live_tv_24</item>
+         <item>outline_outlined_flag_24</item>
+         <item>outline_person_24</item>
+         <item>outline_lock_24</item>
+         <item>outline_settings_24</item>
+     </string-array>
+
+     <string-array name="nav_item_name_2">
+         <item>Inicio</item>
+         <item>TV en Vivo</item>
+         <item>Radios</item>
+         <item>Ajustes</item>
+         <item>Comentarios</item>
+         <item>Cobertura</item>
+         <item>Compartir</item>
+    </string-array>
+
+ <string-array name="nav_item_image_2">
+     <item>outline_home_24</item>
+    <item>outline_live_tv_24</item>
+    <item>ic_radio_icon</item>
+     <item>outline_settings_24</item>
+     <item>outline_folder_24</item>
+     <item>outline_location_24</item>
+     <item>outline_share_24</item>
+ </string-array>
+
+    <string name="title_activity_player">PlayerActivity</string>
+
+    <string name="title_activity_item_show">ItemShowActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_reply">ReplyActivity</string>
+</resources>
